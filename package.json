@@ -1,0 +1,19 @@
+{
+  "name": "node-simple-api",
+  "version": "1.0.0",
+  "description": "Example node api",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enrique Fdz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "body-parser": "^1.20.1",
+    "uuid": "^9.0.0"
+  }
+}
